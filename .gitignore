@@ -32,3 +32,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.info
+New Unity Project/Temp/UnityLockfile
