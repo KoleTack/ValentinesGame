@@ -1520,8 +1520,8 @@ MonoBehaviour:
   m_Dialogue:
     m_Name: Isabella
     m_Sentences:
-    - I'm Just Kidding.
-    - Ofcourse Il be you Valentine.
+    - I tottally Will
+    - You just wait!
     m_Face: {fileID: 1865693837}
     m_CurrentFace:
     - {fileID: 21300000, guid: 5f3a64accf65e4a4ca19502c0a11736f, type: 3}

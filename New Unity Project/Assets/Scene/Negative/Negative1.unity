@@ -1130,7 +1130,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: d21cd30dab56e664c88a408012045b79, type: 3}
     m_EndScene: 1
     m_EndGame: 0
-    m_SceneToLoad: 14
+    m_SceneToLoad: 3
 --- !u!114 &1390101621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1600,7 +1600,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 04acd37fe0943b543a4d81ecf2b903ec, type: 3}
     m_EndScene: 1
     m_EndGame: 0
-    m_SceneToLoad: 3
+    m_SceneToLoad: 14
 --- !u!114 &1960097091
 MonoBehaviour:
   m_ObjectHideFlags: 0
