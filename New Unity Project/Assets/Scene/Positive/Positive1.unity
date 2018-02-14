@@ -669,9 +669,12 @@ MonoBehaviour:
     - Happy Valentines Day! I Love you!
     m_Face: {fileID: 310899523}
     m_CurrentFace:
-    - {fileID: 21300000, guid: fb7449c8a1e9ba344b4b6b1cac01eb82, type: 3}
+    - {fileID: 21300000, guid: cf30234e221ce6c44aa614fbe4d45e93, type: 3}
     - {fileID: 21300000, guid: c6af7a7791ca55c4fa5d525d1a18ebc5, type: 3}
+    - {fileID: 21300000, guid: 2b01eccb8d29ba947bf48a0d7d2af43b, type: 3}
+    - {fileID: 21300000, guid: a113e38d1baed244c8ca04d186f0cc6b, type: 3}
     - {fileID: 21300000, guid: 76a32acbc08c45941b9f5ed88b153001, type: 3}
+    - {fileID: 21300000, guid: cf30234e221ce6c44aa614fbe4d45e93, type: 3}
     m_EndScene: 0
     m_EndGame: 1
     m_SceneToLoad: 0

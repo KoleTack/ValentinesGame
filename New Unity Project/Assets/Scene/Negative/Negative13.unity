@@ -661,10 +661,10 @@ MonoBehaviour:
   m_Dialogue:
     m_Name: Kole
     m_Sentences:
-    - How about with X cherries?  - X will increase until she say yes.
+    - How about please with 2 cherries on top?
     m_Face: {fileID: 310899523}
     m_CurrentFace:
-    - {fileID: 21300000, guid: fb7449c8a1e9ba344b4b6b1cac01eb82, type: 3}
+    - {fileID: 21300000, guid: 5dc94844dc62a1c449d4059bddc6c176, type: 3}
     m_EndScene: 0
     m_EndGame: 0
     m_SceneToLoad: 0
@@ -1122,15 +1122,15 @@ MonoBehaviour:
   m_Dialogue:
     m_Name: Isabella
     m_Sentences:
-    - Yup!
-    - We aren't even dating.
+    - FIIIINNNNNEEE!
+    - I will be your Valentine!
     m_Face: {fileID: 1865693837}
     m_CurrentFace:
-    - {fileID: 21300000, guid: 04acd37fe0943b543a4d81ecf2b903ec, type: 3}
-    - {fileID: 21300000, guid: d21cd30dab56e664c88a408012045b79, type: 3}
+    - {fileID: 21300000, guid: dce7ebed24f116043bdb6167916e6a8f, type: 3}
+    - {fileID: 21300000, guid: cfb56bddb9d3a8e4297964bfac578392, type: 3}
     m_EndScene: 1
     m_EndGame: 0
-    m_SceneToLoad: 0
+    m_SceneToLoad: 15
 --- !u!114 &1390101621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1142,7 +1142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e65ac3ce9a989e44b84cc016c3e4c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Image: {fileID: 21300000, guid: 90c44e57ea7166b4c86ac049d84ac03c, type: 3}
+  m_Image: {fileID: 21300000, guid: 2b01eccb8d29ba947bf48a0d7d2af43b, type: 3}
 --- !u!1 &1409011580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,7 +1455,6 @@ GameObject:
   - component: {fileID: 1960097088}
   - component: {fileID: 1960097087}
   - component: {fileID: 1960097090}
-  - component: {fileID: 1960097091}
   m_Layer: 5
   m_Name: NoButton
   m_TagString: Response
@@ -1522,18 +1521,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1960097090}
-        m_MethodName: TriggerDialogue
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1960097091}
-        m_MethodName: React
+        m_MethodName: IncreaseCherries
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1586,33 +1574,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1960097085}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcd042f6dee93f74bbff29617116a046, type: 3}
+  m_Script: {fileID: 11500000, guid: 0056f6fc0a1d95c47a3b316057878579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Dialogue:
-    m_Name: Isabella
-    m_Sentences:
-    - I'm Just Kidding.
-    - Ofcourse Il be you Valentine.
-    m_Face: {fileID: 1865693837}
-    m_CurrentFace:
-    - {fileID: 21300000, guid: 5f3a64accf65e4a4ca19502c0a11736f, type: 3}
-    - {fileID: 21300000, guid: 04acd37fe0943b543a4d81ecf2b903ec, type: 3}
-    m_EndScene: 1
-    m_EndGame: 0
-    m_SceneToLoad: 0
---- !u!114 &1960097091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1960097085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e65ac3ce9a989e44b84cc016c3e4c5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Image: {fileID: 21300000, guid: d82d3fd3db7878c4bbf9f2b17610fdf7, type: 3}
+  m_CurrentCherries: 2
+  m_DialogueBox: {fileID: 368621005}
 --- !u!1 &2144707375
 GameObject:
   m_ObjectHideFlags: 0

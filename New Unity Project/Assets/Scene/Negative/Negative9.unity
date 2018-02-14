@@ -666,7 +666,7 @@ MonoBehaviour:
 '
     m_Face: {fileID: 310899523}
     m_CurrentFace:
-    - {fileID: 21300000, guid: fb7449c8a1e9ba344b4b6b1cac01eb82, type: 3}
+    - {fileID: 21300000, guid: a113e38d1baed244c8ca04d186f0cc6b, type: 3}
     m_EndScene: 0
     m_EndGame: 0
     m_SceneToLoad: 0
@@ -1124,15 +1124,15 @@ MonoBehaviour:
   m_Dialogue:
     m_Name: Isabella
     m_Sentences:
-    - Yup!
-    - We aren't even dating.
+    - Well, I guess I will give up then.
+    - I will be your Valentine!
     m_Face: {fileID: 1865693837}
     m_CurrentFace:
-    - {fileID: 21300000, guid: 04acd37fe0943b543a4d81ecf2b903ec, type: 3}
     - {fileID: 21300000, guid: d21cd30dab56e664c88a408012045b79, type: 3}
+    - {fileID: 21300000, guid: 5f3a64accf65e4a4ca19502c0a11736f, type: 3}
     m_EndScene: 1
     m_EndGame: 0
-    m_SceneToLoad: 0
+    m_SceneToLoad: 15
 --- !u!114 &1390101621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1144,7 +1144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e65ac3ce9a989e44b84cc016c3e4c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Image: {fileID: 21300000, guid: 90c44e57ea7166b4c86ac049d84ac03c, type: 3}
+  m_Image: {fileID: 21300000, guid: cf30234e221ce6c44aa614fbe4d45e93, type: 3}
 --- !u!1 &1409011580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1602,7 +1602,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 04acd37fe0943b543a4d81ecf2b903ec, type: 3}
     m_EndScene: 1
     m_EndGame: 0
-    m_SceneToLoad: 0
+    m_SceneToLoad: 10
 --- !u!114 &1960097091
 MonoBehaviour:
   m_ObjectHideFlags: 0

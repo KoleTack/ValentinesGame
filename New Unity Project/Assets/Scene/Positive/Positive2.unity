@@ -661,17 +661,21 @@ MonoBehaviour:
   m_Dialogue:
     m_Name: Kole
     m_Sentences:
-    - Wow!
-    - '...I Didn''t really think you would say yes that easy...'
+    - Finally.
+    - I knew I would have to work for you to be my Valentine, but I never imagined
+      this hard.
     - That Doesn't matter, because I know you will be the best Valentine Ever.
     - Also......
     - There Is a surprise under you seat.
     - Happy Valentines Day! I Love you!
     m_Face: {fileID: 310899523}
     m_CurrentFace:
-    - {fileID: 21300000, guid: fb7449c8a1e9ba344b4b6b1cac01eb82, type: 3}
-    - {fileID: 21300000, guid: c6af7a7791ca55c4fa5d525d1a18ebc5, type: 3}
+    - {fileID: 21300000, guid: cf30234e221ce6c44aa614fbe4d45e93, type: 3}
+    - {fileID: 21300000, guid: 9a5ef05d150ab68488f802723f80e000, type: 3}
+    - {fileID: 21300000, guid: 2b01eccb8d29ba947bf48a0d7d2af43b, type: 3}
+    - {fileID: 21300000, guid: a113e38d1baed244c8ca04d186f0cc6b, type: 3}
     - {fileID: 21300000, guid: 76a32acbc08c45941b9f5ed88b153001, type: 3}
+    - {fileID: 21300000, guid: cf30234e221ce6c44aa614fbe4d45e93, type: 3}
     m_EndScene: 0
     m_EndGame: 1
     m_SceneToLoad: 0
@@ -1137,7 +1141,7 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 2b01eccb8d29ba947bf48a0d7d2af43b, type: 3}
     m_EndScene: 1
     m_EndGame: 0
-    m_SceneToLoad: 0
+    m_SceneToLoad: 13
 --- !u!114 &1390101621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1607,7 +1611,7 @@ MonoBehaviour:
     - {fileID: 0}
     m_EndScene: 1
     m_EndGame: 0
-    m_SceneToLoad: 0
+    m_SceneToLoad: 1
 --- !u!114 &1960097091
 MonoBehaviour:
   m_ObjectHideFlags: 0

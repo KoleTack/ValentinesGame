@@ -470,7 +470,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: No
+  m_Text: Push Futher
 --- !u!222 &1000316771
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -966,7 +966,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yes
+  m_Text: Be Valentine.
 --- !u!222 &1194896383
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1122,15 +1122,13 @@ MonoBehaviour:
   m_Dialogue:
     m_Name: Isabella
     m_Sentences:
-    - Yup!
-    - We aren't even dating.
+    - No, I'm Good, I'll be you Valentine!
     m_Face: {fileID: 1865693837}
     m_CurrentFace:
     - {fileID: 21300000, guid: 04acd37fe0943b543a4d81ecf2b903ec, type: 3}
-    - {fileID: 21300000, guid: d21cd30dab56e664c88a408012045b79, type: 3}
     m_EndScene: 1
     m_EndGame: 0
-    m_SceneToLoad: 0
+    m_SceneToLoad: 14
 --- !u!114 &1390101621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1142,7 +1140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e65ac3ce9a989e44b84cc016c3e4c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Image: {fileID: 21300000, guid: 90c44e57ea7166b4c86ac049d84ac03c, type: 3}
+  m_Image: {fileID: 21300000, guid: 2b01eccb8d29ba947bf48a0d7d2af43b, type: 3}
 --- !u!1 &1409011580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,15 +1590,15 @@ MonoBehaviour:
   m_Dialogue:
     m_Name: Isabella
     m_Sentences:
-    - I'm Just Kidding.
-    - Ofcourse Il be you Valentine.
+    - Oh I will!
+    - I am going to get to the buttom of this!
     m_Face: {fileID: 1865693837}
     m_CurrentFace:
     - {fileID: 21300000, guid: 5f3a64accf65e4a4ca19502c0a11736f, type: 3}
     - {fileID: 21300000, guid: 04acd37fe0943b543a4d81ecf2b903ec, type: 3}
     m_EndScene: 1
     m_EndGame: 0
-    m_SceneToLoad: 0
+    m_SceneToLoad: 5
 --- !u!114 &1960097091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1612,7 +1610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e65ac3ce9a989e44b84cc016c3e4c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Image: {fileID: 21300000, guid: d82d3fd3db7878c4bbf9f2b17610fdf7, type: 3}
+  m_Image: {fileID: 21300000, guid: f5e2aa5f63afa7c4ba56363c457568f8, type: 3}
 --- !u!1 &2144707375
 GameObject:
   m_ObjectHideFlags: 0
