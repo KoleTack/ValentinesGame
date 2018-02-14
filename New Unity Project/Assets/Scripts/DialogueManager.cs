@@ -12,18 +12,39 @@ public class DialogueManager : MonoBehaviour {
     public Text m_NameText;
     public Text m_DialogueText;
 
+    public Trigger m_OnStartTrigger;
+
+    public GameObject[] m_Response;
+    public GameObject m_Continue;
+    public GameObject m_EndScene;
+
+    bool m_EndOfScene;
+    bool m_EndGame = false;
+    int m_SceneToLoad;
     bool m_Talking;
     string m_CurrentText;
     // Use this for initialization
 	void Start ()
     {
+        m_Continue = GameObject.FindGameObjectWithTag("Continue");
+        m_Response = GameObject.FindGameObjectsWithTag("Response");
+        m_EndScene = GameObject.FindGameObjectWithTag("EndScene");
+
+        m_EndScene.SetActive(false);
         m_Sentences = new Queue<string>();
         m_Faces = new Queue<Sprite>();
         m_Talking = false;
-	}
+
+        if (m_OnStartTrigger != null)
+        {
+            m_OnStartTrigger.TriggerDialogue();
+        }
+    }
 
     public void StartDialogue(Dialogue dialogue)
     {
+        //Display continue button.
+
         Debug.Log("Starting conversation with " + dialogue.m_Name);
         Debug.Log(dialogue.m_Sentences.Length);
 
@@ -43,14 +64,22 @@ public class DialogueManager : MonoBehaviour {
         }
       
         m_NameText.text = dialogue.m_Name;
-
+        m_EndOfScene = dialogue.m_EndScene;
+        m_EndGame = dialogue.m_EndGame;
+        m_SceneToLoad = dialogue.m_SceneToLoad;
         DisplayNextSentence();
 
     }
 
+    public void LoadNextScene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(m_SceneToLoad);
+    }
 
     public void DisplayNextSentence()
     {
+        
+
         //check if still talking
         if (m_Talking)
         {
@@ -58,6 +87,12 @@ public class DialogueManager : MonoBehaviour {
             StopAllCoroutines();
             m_Talking = false;
             m_DialogueText.text = m_CurrentText;
+
+            //check if this was last sentence
+            if(m_Sentences.Count == 0)
+            {
+                EndOfDialogue();
+            }
             return;
         }
 
@@ -66,6 +101,14 @@ public class DialogueManager : MonoBehaviour {
             EndOfDialogue();
             return;
         }
+
+        m_Continue.SetActive(true);
+
+        foreach (GameObject response in m_Response)
+        {
+            response.SetActive(false);
+        }
+
         m_Face.sprite = m_Faces.Dequeue();
         m_CurrentText = m_Sentences.Dequeue();
         StopAllCoroutines();
@@ -85,12 +128,43 @@ public class DialogueManager : MonoBehaviour {
             yield return null;
         }
 
-        m_Talking = false;
-       
+        m_Talking = false;  
+        if(m_Sentences.Count == 0)
+        {
+            //Display response options.
+            EndOfDialogue();
+        }
     }
 
     void EndOfDialogue()
     {
-        Debug.Log("End of conversation");
+        if (m_EndGame)
+        {
+            m_Continue.SetActive(false);
+            m_EndScene.SetActive(false);
+
+            foreach (GameObject response in m_Response)
+            {
+                response.SetActive(false);
+            }
+
+            return;
+        }
+
+
+        m_Continue.SetActive(false);
+
+        if(m_EndOfScene)
+        {
+            m_EndScene.SetActive(true);
+            return;
+        }
+
+        foreach (GameObject response in m_Response)
+        {
+            response.SetActive(true);
+        }
+
+        Debug.Log("Display Responses");
     }
 }

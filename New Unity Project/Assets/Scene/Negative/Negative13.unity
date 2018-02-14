@@ -661,14 +661,10 @@ MonoBehaviour:
   m_Dialogue:
     m_Name: Kole
     m_Sentences:
-    - Isabella!
-    - I Love you,......Like alot...Like, can't really even show it here.
-    - So, I would be honoured if you would be my Valentine!
+    - How about with X cherries?  - X will increase until she say yes.
     m_Face: {fileID: 310899523}
     m_CurrentFace:
     - {fileID: 21300000, guid: fb7449c8a1e9ba344b4b6b1cac01eb82, type: 3}
-    - {fileID: 21300000, guid: c6af7a7791ca55c4fa5d525d1a18ebc5, type: 3}
-    - {fileID: 21300000, guid: 76a32acbc08c45941b9f5ed88b153001, type: 3}
     m_EndScene: 0
     m_EndGame: 0
     m_SceneToLoad: 0
@@ -1126,12 +1122,12 @@ MonoBehaviour:
   m_Dialogue:
     m_Name: Isabella
     m_Sentences:
-    - Ofcourse I will be you Valentine!
-    - I Love you after all!
+    - Yup!
+    - We aren't even dating.
     m_Face: {fileID: 1865693837}
     m_CurrentFace:
-    - {fileID: 21300000, guid: 5f3a64accf65e4a4ca19502c0a11736f, type: 3}
-    - {fileID: 21300000, guid: d90418088a54b8b40b84d1dc74996906, type: 3}
+    - {fileID: 21300000, guid: 04acd37fe0943b543a4d81ecf2b903ec, type: 3}
+    - {fileID: 21300000, guid: d21cd30dab56e664c88a408012045b79, type: 3}
     m_EndScene: 1
     m_EndGame: 0
     m_SceneToLoad: 0
@@ -1146,7 +1142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e65ac3ce9a989e44b84cc016c3e4c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Image: {fileID: 21300000, guid: cf30234e221ce6c44aa614fbe4d45e93, type: 3}
+  m_Image: {fileID: 21300000, guid: 90c44e57ea7166b4c86ac049d84ac03c, type: 3}
 --- !u!1 &1409011580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1596,12 +1592,12 @@ MonoBehaviour:
   m_Dialogue:
     m_Name: Isabella
     m_Sentences:
-    - '.......................................'
-    - 'Nope! '
+    - I'm Just Kidding.
+    - Ofcourse Il be you Valentine.
     m_Face: {fileID: 1865693837}
     m_CurrentFace:
-    - {fileID: 21300000, guid: 133275116e8692447a42c90fdf38aa3f, type: 3}
-    - {fileID: 21300000, guid: 0201e609d15a63b4794d30c22c81195a, type: 3}
+    - {fileID: 21300000, guid: 5f3a64accf65e4a4ca19502c0a11736f, type: 3}
+    - {fileID: 21300000, guid: 04acd37fe0943b543a4d81ecf2b903ec, type: 3}
     m_EndScene: 1
     m_EndGame: 0
     m_SceneToLoad: 0
@@ -1616,7 +1612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e65ac3ce9a989e44b84cc016c3e4c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Image: {fileID: 21300000, guid: 90c44e57ea7166b4c86ac049d84ac03c, type: 3}
+  m_Image: {fileID: 21300000, guid: d82d3fd3db7878c4bbf9f2b17610fdf7, type: 3}
 --- !u!1 &2144707375
 GameObject:
   m_ObjectHideFlags: 0

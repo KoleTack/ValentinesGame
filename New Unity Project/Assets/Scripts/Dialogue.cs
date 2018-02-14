@@ -16,8 +16,11 @@ public class Dialogue {
 
     public Sprite[] m_CurrentFace;
 
+    public Dialogue m_NextDialogue;
+
+    public bool m_EndScene;
+    public bool m_EndGame;
+    public int m_SceneToLoad;
+
     
-
-
-
 }
