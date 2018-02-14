@@ -34,3 +34,5 @@ sysinfo.txt
 *.unitypackage
 *.info
 New Unity Project/Temp/UnityLockfile
+*.log
+New Unity Project/Temp/UnityTempFile-fee5541f4c75ad1438ed3f486eefb0f6
